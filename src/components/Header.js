@@ -3,12 +3,12 @@
 const Header = ({onDarkModeClick, isDarkMode}) => {
  
     return(
-        <header>
+      <header>
         <h2>Shopster</h2>
         <button onClick={onDarkModeClick}>
-          {isDarkMode ? "dark" : "light"} Mode
+          {isDarkMode ? "light" : "dark"} Mode
         </button>
       </header>
     )
 }
-export {Header}
+export default Header
